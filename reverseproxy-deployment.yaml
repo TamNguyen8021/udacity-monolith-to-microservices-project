@@ -15,7 +15,7 @@ spec:
         service: udagram-reverseproxy
     spec:
       containers:
-        - image: serenalin7749/udagram-reverseproxy:v1
+        - image: serenalin7749/udagram-reverseproxy:v2
           name: udagram-reverseproxy
           imagePullPolicy: "Always"
           resources:
