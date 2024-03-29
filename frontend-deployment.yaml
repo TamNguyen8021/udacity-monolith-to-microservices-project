@@ -15,9 +15,11 @@ spec:
         service: udagram-frontend
     spec:
       containers:
-        - image: serenalin7749/udagram-frontend:v3
+        - image: serenalin7749/udagram-frontend:v4
           name: udagram-frontend
           imagePullPolicy: "Always"
+          ports:
+            - containerPort: 80
           resources:
             requests:
               memory: "64Mi"
